@@ -1,0 +1,18 @@
+<!DCOTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport"content="width=device-width, initial-scale=1.0">
+  <title> Cadastro </title>
+ </head>
+ <body>
+  <h1> Faça seu Cadastro </h1>
+  <form action="confirmacao.html">
+   <p> Nome: <input type="text" name="nome" required > </p>
+   <p> Email: <input type="email" name="email" required > </p>
+   <p> Senha: <input type="password" name="senha" required > </p>
+   <p> Telefone:  <input type="text" id="telefone" name="telefone" required maxlength="15" pattern="\(\d{2}\) \d{5}-\d{4}" placeholder="(99) 99999-9999" required > </p>
+   <button type="submit">Cadastrar</button>
+  </form>
+ </body>
+</html>
